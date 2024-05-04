@@ -76,5 +76,3 @@ class LoginSerializer(serializers.ModelSerializer):
 
         data['user'] = user
         return data
-
-
